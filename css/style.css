@@ -74,7 +74,7 @@ h1 {
   border-radius: 50%;
 }
 
-.diveder {
+.divider {
   margin-top: 10px;
   background-color: #829985;
   width: 108px;
@@ -86,4 +86,105 @@ h1 {
   color: #3d2b27;
   font-size: 32px;
   text-transform: uppercase;
+}
+
+.intermediate-divider {
+  width: 100%;
+  height: 12px;
+  margin-top: 40px;
+  background-color: #d9d0c7;
+}
+
+.section-information {
+  padding-top: 40px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.article-contats {
+  padding-bottom: 40px;
+  position: relative;
+  width: 50%;
+}
+
+.article-contats a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: #829985;
+}
+
+.article-summary {
+  position: relative;
+  padding-bottom: 40px;
+  width: 50%;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #829985;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.article-contats p {
+  padding-bottom: 10px;
+}
+
+.city {
+  display: flex;
+}
+
+.email {
+  display: flex;
+}
+
+.git {
+  display: flex;
+}
+
+.tg {
+  display: flex;
+}
+
+.city-img {
+  width: 18px;
+  height: 18px;
+}
+
+.email-img {
+  width: 18px;
+  height: 18px;
+}
+
+.git-img {
+  width: 18px;
+  height: 18px;
+}
+
+.tg-img {
+  width: 18px;
+  height: 18px;
+}
+
+.pl {
+  padding-left: 10px;
+}
+
+.summary-text {
+  color: #3d2b27;
+  line-height: 24px;
+}
+
+.information-divider {
+  width: 90%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background-color: #3d2b27;
 }
