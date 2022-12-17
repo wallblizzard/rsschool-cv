@@ -42,11 +42,48 @@ body {
 }
 
 .about {
-  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 0;
+}
+
+.about-avatar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  color: #3d2b27;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .about-img {
   width: 225px;
   height: 225px;
   border-radius: 50%;
+}
+
+.diveder {
+  margin-top: 10px;
+  background-color: #829985;
+  width: 108px;
+  height: 2px;
+}
+
+.about-activity {
+  margin-top: 40px;
+  color: #3d2b27;
+  font-size: 32px;
+  text-transform: uppercase;
 }
