@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: #829985;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 0;
+}
+
+.about-avatar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  color: #3d2b27;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.about-img {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+}
+
+.divider {
+  margin-top: 10px;
+  background-color: #829985;
+  width: 108px;
+  height: 2px;
+}
+
+.about-activity {
+  margin-top: 40px;
+  color: #3d2b27;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.intermediate-divider {
+  width: 100%;
+  height: 12px;
+  margin-top: 40px;
+  background-color: #d9d0c7;
+}
+
+.section-information {
+  padding-top: 40px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.article-contats {
+  padding-bottom: 40px;
+  position: relative;
+  width: 50%;
+}
+
+.article-contats a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: #829985;
+}
+
+.article-summary {
+  position: relative;
+  padding-bottom: 40px;
+  width: 50%;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #829985;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.article-contats p {
+  padding-bottom: 10px;
+}
+
+.city {
+  display: flex;
+}
+
+.email {
+  display: flex;
+}
+
+.git {
+  display: flex;
+}
+
+.tg {
+  display: flex;
+}
+
+.city-img {
+  width: 18px;
+  height: 18px;
+}
+
+.email-img {
+  width: 18px;
+  height: 18px;
+}
+
+.git-img {
+  width: 18px;
+  height: 18px;
+}
+
+.tg-img {
+  width: 18px;
+  height: 18px;
+}
+
+.pl {
+  padding-left: 10px;
+}
+
+.summary-text {
+  color: #3d2b27;
+  line-height: 24px;
+}
+
+.information-divider {
+  width: 90%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background-color: #3d2b27;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #829985;
+  height: 80px;
+}
+
+.rsschool-img {
+  width: 80px;
+  height: 29px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,1 +1,1 @@
-# rsschool-cv
+https://wallblizzard.github.io/rsschool-cv/cv
