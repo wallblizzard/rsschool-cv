@@ -4,17 +4,22 @@
 ---
 ### **Contact information:**
 E-mail: wallblizzard@yandex.ru
-Telegram: [@Linkov93](https://t.me/Linkov93)
+Telegram: [@Linkov93](https://t.me/Linkov93)  
+
 ---
 ### **About Myself:**
-Will definitely appear in the future.
+Will definitely appear in the future.  
+
 ---
 ### **Skills:**
--HTML and CSS
+-HTML and CSS  
+
 ---
 ### **Code example:**
-`console.log(hello world);`
+`console.log(hello world);`  
+
 ---
 ### **Languages:**
-**Russian: Nativ**
+**Russian: Nativ**  
+
 **English: A1**
