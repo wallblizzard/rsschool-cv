@@ -74,3 +74,73 @@ body {
   font-weight: 300;
   text-transform: uppercase;
 }
+
+.band {
+  border-bottom: 2px solid #829985;
+  margin-right: 15px;
+  min-width: 705px;
+  padding: 30px 0;
+}
+
+.band:nth-child(even) {
+  margin-right: 0;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  padding: 30px 0;
+}
+
+.info__titel {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #829985;
+  margin-bottom: 15px;
+}
+
+.info__contats p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.info__contats a {
+  text-decoration: none;
+  color: #829985;
+}
+
+.info__summary p {
+  font-size: 18px;
+}
+
+.info__skills p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.info__skills span {
+  color: #829985;
+}
+
+.info__courses p {
+  font-size: 18px;
+}
+
+.info__courses span {
+  color: #829985;
+}
+
+.info__project a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.info__education p {
+  font-size: 18px;
+}
+
+.info__english p {
+  font-size: 18px;
+}
