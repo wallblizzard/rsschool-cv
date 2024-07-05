@@ -93,7 +93,7 @@ body {
 .band {
   border-bottom: 2px solid #829985;
   margin-right: 15px;
-  min-width: 705px;
+  min-width: 49%;
   padding: 30px 0;
 }
 
