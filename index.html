@@ -4,12 +4,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>cv</title>
 </head>
 
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="container header__menu">
+        <ul class="header__list">
+          <li class="header__link">
+            <a href="#">contats</a>
+          </li>
+          <li class="header__link">
+            <a href="#">summary</a>
+          </li>
+          <li class="header__link">
+            <a href="#">skills</a>
+          </li>
+          <li class="header__link">
+            <a href="#">code</a>
+          </li>
+          <li class="header__link">
+            <a href="#">projects</a>
+          </li>
+          <li class="header__link">
+            <a href="#">education</a>
+          </li>
+          <li class="header__link">
+            <a href="#">english</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
+    <main class="main">
+      <div class="container">
+        <section class="section about">
+          <div class="about__myphoto">
+            <img src="img/photo.JPG" alt="MyPhoto" class="myphoto">
+          </div>
+          <div class="about__name">
+            <h1 class="titel">Yury Linkov</h1>
+            <h3 class="subtitel">junior front-end developer</h3>
+          </div>
+        </section>
+        <section class="section info">
+          <article class="info__contats band">
+            <h2 class="info__titel">contats</h2>
+            <ul>
+              <li class="info__citi"><span>Russian, Saratov</span></li>
+              <li class="info__email"><a href="#"><span>Email: </span>wallblizzard@yandex.ru</a></li>
+              <li class="info_telegram"><span>Telegram: </span><a href="https://t.me/Linkov93"
+                  target="_blank">Linkov</a></li>
+              <li class="info__github"><span>Github: </span><a href="https://github.com/wallblizzard">wallblizzard</a>
+              </li>
+            </ul>
+
+          </article>
+
+          <article class="info__summary band">
+            <h2 class="info__titel">summary</h2>
+            <p>
+              I am 31 years old. Decided to learn something new.
+            </p>
+          </article>
+
+          <article class="info__skills band">
+            <h2 class="info__titel">skills</h2>
+            <ul>
+              <li>
+                Web: <span>Html and Css</span>
+              </li>
+              <li>Version control: <span>GIT, Github</span></li>
+            </ul>
+          </article>
+
+          <article class="info__code band">
+            <h2 class="info__titel">code</h2>
+            <pre>
+              <code>
+                console.log('hello world');
+              </code>
+            </pre>
+          </article>
+
+          <article class="info__courses band">
+            <h2 class="info__titel">courses</h2>
+            <p>Rs.Shcool: <span>Stage0</span></p>
+          </article>
+
+          <article class="info__project band">
+            <h2 class="info__titel">project</h2>
+            <a href="https://github.com/wallblizzard/rsschool-cv">CV</a>
+          </article>
+
+          <article class="info__education band">
+            <h2 class="info__titel">education</h2>
+            <p>No education</p>
+          </article>
+
+          <article class="info__english band">
+            <h2 class="info__titel">english</h2>
+            <p>A1</p>
+          </article>
+
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+
+        <div class="footer__info">
+          <span>© 2024</span>
+          <span><a href="https://github.com/wallblizzard">wallblizzard</a></span>
+        </div>
+        <div class="footer__logo">
+
+          <a href="https://rs.school/courses/javascript-ru">
+            <img src="img/rs-school-logo.svg" alt="logo RsSchool">
+          </a>
+        </div>
+      </div>
+
+    </footer>
+  </div>
 </body>
 
 </html>
