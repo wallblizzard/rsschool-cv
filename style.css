@@ -116,9 +116,14 @@ body {
   margin-bottom: 15px;
 }
 
-.info__contats p {
+.info__contats ul {
   font-size: 18px;
   padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.info__contats ul li {
+  padding-bottom: 15px;
 }
 
 .info__contats a {
@@ -130,9 +135,14 @@ body {
   font-size: 18px;
 }
 
-.info__skills p {
+.info__skills ul {
   font-size: 18px;
   padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.info__skills ul li {
+  padding-bottom: 15px;
 }
 
 .info__skills span {
